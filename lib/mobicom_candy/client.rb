@@ -70,10 +70,13 @@ module MobicomCandy
     # @param [String] tancode
     # @return [MobicomCandy::Entity]
     def sell_confirm(customer_id, system, amount, tancode)
-      post('sellconfirm', 'customer.value' => customer_id, 'customer.system' => system, amount: amount, tancode: tancode)
+      post('sellconfirm', 'customer' => {
+        value: customer_id,
+        system: system
+      }, amount: amount, tancode: tancode)
     end
 
-    # @param [String] customer_id
+    # @param [String] card_id
     # @param [String] system
     # @param [Decimal] amount
     # @param [String] pin
@@ -83,10 +86,10 @@ module MobicomCandy
     # @param [String] product
     # @param [String] product_type
     # @return [MobicomCandy::Entity]
-    def sell_card(customer_id, system, amount, pin, description: nil, sms_prefix: nil, sms_suffix: nil, product: nil, product_type: nil)
+    def sell_card(card_id, system, amount, pin, description: nil, sms_prefix: nil, sms_suffix: nil, product: nil, product_type: nil)
       post('sellcard',
            'customer' => {
-             value: customer_id,
+             value: card_id,
              system: system
            },
            amount: amount,
