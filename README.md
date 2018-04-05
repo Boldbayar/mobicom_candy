@@ -1,5 +1,11 @@
 # MobicomCandy
 
+[![Gem Version](https://badge.fury.io/rb/mobicom_candy.svg)](https://badge.fury.io/rb/mobicom_candy) [![Build Status](https://travis-ci.org/ssxenon01/mobicom_candy.svg?branch=master)](https://travis-ci.org/ssxenon01/mobicom_candy)
+[![Maintainability](https://api.codeclimate.com/v1/badges/afbec1dd7a17291317f5/maintainability)](https://codeclimate.com/github/ssxenon01/mobicom_candy/maintainability)
+[![codebeat badge](https://codebeat.co/badges/d51c6f19-41bd-4778-9492-629a0601d40d)](https://codebeat.co/projects/github-com-ssxenon01-mobicom_candy-master)
+[![Inline docs](http://inch-ci.org/github/ssxenon01/mobicom_candy.svg?branch=master)](http://inch-ci.org/github/ssxenon01/mobicom_candy)
+[![Dependency Status](https://beta.gemnasium.com/badges/github.com/ssxenon01/mobicom_candy.svg)](https://beta.gemnasium.com/projects/github.com/ssxenon01/mobicom_candy)
+
 Candy нь нээлттэй эхийг дэмжсэн Монголын хамгийн анхны цахим мөнгөний систем бөгөөд та өөрийн ашигладаг болон хөгжүүлдэг борлуулалтын системээ хэзээ ч, хаанаас ч Candy цахим мөнгөний системтэй холбох боломжтой боллоо.
 
 Таны борлуулалтын систем (Кассын програм, Онлайн шоп) Сandy-д нэгдсэнээр дараах зүйлсийг хийх боломжтой:
