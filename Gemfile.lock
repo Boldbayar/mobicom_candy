@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mobicom_candy (0.1.0)
+    mobicom_candy (0.1.1)
 
 GEM
   remote: https://rubygems.org/
