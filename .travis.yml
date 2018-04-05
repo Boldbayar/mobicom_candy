@@ -1,5 +1,13 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.4.2
+- 2.4.2
 before_install: gem install bundler -v 1.16.0
+deploy:
+  provider: rubygems
+  api_key:
+    secure: bjgz5qOp42L4FRyrECtYG9SMTNxlsU06TCz1G2OfOgESmTH0YeCqo3a2nQ3DaWhsYgHY2GWImL8T+X9JGdpaSSOvc0g39otb5bj7k5jlcatvu2NszkAQKEnKdJngA+XSJL+hgZVLXBg5Cn8oVIbLg2YUYwIqh8R8Qa900Tvz6FBwZOBBdvBwZSW0ASORHscoUJFLVkl+tbm108QXGTS09uscpsPfohB7xKI/KJoncFl7F5vl037NbOiSTeRUruBMKAUhKbJNKOWvu/L+XnKWI3CKW0JwFTsPTBPQpTNWDxhv7SUhqtFb85SeBSOHdi52I1pgvTSiNiWalJPKAhpe+t9UvXxczCXL9PMpPEi97gndbp3QP5oLGfrCELZxXpTcC0e8OZX2LIwtNHMdytsSEHEKB6EVBAs3F+lW1fnKfoqtc66A1073hDARmg2pOEYGu0AGk9eMfPKaWOr+I5IrDo+0J4+1/+c6UXIjCceMxrUUr/uoLT0e3iejzXY9qrdszE2LM4u4358gNthmE1BLHWJs/sf1k+Xi1In20o3mQGnfrPvfkyHUE6M8ZuFjWZDzF1jWQ/RP4G7RjK00UWVwrGrB/gY2O66x4Pc9gyoLbgtMOmpHg3mNJqM1Wps1wGIhcWJ8EZ2IpT5NwULbHG6YHryOtNTFegzCdZJTs2c3nFE=
+  gem: mobicom_candy
+  on:
+    tags: true
+    repo: ssxenon01/mobicom_candy
